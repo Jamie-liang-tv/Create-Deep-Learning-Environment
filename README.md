@@ -3,7 +3,8 @@ Setup Environment for Deep Learning <br/>
 
 # First, install graphic driver, (nvidia-smi)
 sudo add-apt-repository ppa:graphics-drivers/ppa <br/>
-sudo apt install nvidia-driver-450 <br/>
+sudo apt install nvidia-driver-470 <br/>
+#sudo apt install nvidia-driver-450 <br/>
 sudo apt-get update <br/>
 # Pure the driver 
 sudo apt-get purge nvidia* <br/>
