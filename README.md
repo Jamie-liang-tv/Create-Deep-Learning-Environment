@@ -34,10 +34,11 @@ export PATH=/usr/local/cuda/bin${PATH:+:${PATH}}$  <br/>
 export LD_LIBRARY_PATH=/usr/local/cuda/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}} <br/>
 source ~/.bashrc <br/>
 
-## Download cuDNN suitable version #Download cuDNN v8.0.5 (November 9th, 2020), for CUDA 11.1#
+## Download cuDNN suitable version 
+#### Download cuDNN v8.0.5 (November 9th, 2020), for CUDA 11.
 install cudnn https://developer.nvidia.com/rdp/cudnn-archive <br/>
 https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html#install-linux <br/>
-### extract cuDNN
+### Extract cuDNN
 tar -xvf cudnnXX <br/>
 #### Copy to Path
 sudo cp cuda/include/cudnn*.h /usr/local/cuda/include <br/>
