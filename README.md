@@ -1,13 +1,13 @@
-# Create-Deep-Learning-Environment <br/>
+# Create-Deep-Learning-Environment
 Setup Environment for Deep Learning <br/>
 
-#First, install graphic driver, (nvidia-smi) <br/>
+# First, install graphic driver, (nvidia-smi)
 sudo add-apt-repository ppa:graphics-drivers/ppa <br/>
 sudo apt install nvidia-driver-450 <br/>
 sudo apt-get update <br/>
-#Pure the driver <br/>
+# Pure the driver 
 sudo apt-get purge nvidia* <br/>
-#Reboot  <br/>
+# Reboot  
 sudo reboot  <br/>
 
 #Second, step install gcc (to prevent Failed to verify gcc version) 
@@ -17,19 +17,18 @@ sudo apt-get install manpages-dev
 sudo apt install gcc 
 gcc --version 
 
-# Do to https://developer.nvidia.com/cuda-11.0-download-archive to download suitable cuda (11.0l2)
-wget https://developer.download.nvidia.com/compute/cuda/11.0.2/local_installers/cuda_11.0.2_450.51.05_linux.run
-sudo chmod +x cuda_11.0.2_450.51.05_linux.run
-sudo sh cuda_11.0.2_450.51.05_linux.run # only check on CUDA Toolkit 11.0 it will work
-
+# Do to https://developer.nvidia.com/cuda-11.0-download-archive to download suitable cuda (11.0l2) <br/>
+wget https://developer.download.nvidia.com/compute/cuda/11.0.2/local_installers/cuda_11.0.2_450.51.05_linux.run <br/>
+sudo chmod +x cuda_11.0.2_450.51.05_linux.run <br/>
+sudo sh cuda_11.0.2_450.51.05_linux.run # only check on CUDA Toolkit 11.0 it will work <br/>
 ################### Exoport path ################################
-sudo nano /etc/profile.d/cuda.sh
-export PATH=/usr/local/cuda-11.1/bin:$PATH
-export CUDADIR=/usr/local/cuda-11.1
-sudo chmod +x /etc/profile.d/cuda.sh
-sudo nano /etc/ld.so.conf.d/cuda.conf
-/usr/local/cuda-11.1/lib64 
-sudo ldconfig 
+sudo nano /etc/profile.d/cuda.sh <br/>
+export PATH=/usr/local/cuda-11.1/bin:$PATH <br/>
+export CUDADIR=/usr/local/cuda-11.1 <br/> 
+sudo chmod +x /etc/profile.d/cuda.sh <br/>
+sudo nano /etc/ld.so.conf.d/cuda.conf <br/>
+/usr/local/cuda-11.1/lib64  <br/>
+sudo ldconfig <br/>
 #################### Another the way to add PATH Alway work
 nano ~/.bashrc 
 export PATH=/usr/local/cuda/bin${PATH:+:${PATH}}$ 
