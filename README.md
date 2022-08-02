@@ -16,11 +16,11 @@ sudo apt install build-essential
 sudo apt-get install manpages-dev 
 sudo apt install gcc 
 gcc --version 
-## Do to https://developer.nvidia.com/cuda-11.0-download-archive to download suitable cuda (11.0l2) 
+### visit https://developer.nvidia.com/cuda-11.0-download-archive to download suitable cuda (our case 11.0.2) 
 wget https://developer.download.nvidia.com/compute/cuda/11.0.2/local_installers/cuda_11.0.2_450.51.05_linux.run <br/>
 sudo chmod +x cuda_11.0.2_450.51.05_linux.run <br/>
 sudo sh cuda_11.0.2_450.51.05_linux.run # only check on CUDA Toolkit 11.0 it will work <br/>
-### Exoport path
+#### Exoport path
 sudo nano /etc/profile.d/cuda.sh <br/>
 export PATH=/usr/local/cuda-11.1/bin:$PATH <br/>
 export CUDADIR=/usr/local/cuda-11.1 <br/> 
