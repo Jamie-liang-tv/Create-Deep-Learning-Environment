@@ -1,4 +1,4 @@
-# Install Pytorch 1.8.0 and Tensorflow-gpu 2.4.1 on Ubunt20.04
+# Install Pytorch 1.8.0 and Tensorflow-gpu 2.4.1 on Ubuntu20.04
  Also works on Ubuntu18.04
 # First, install graphic driver (nvidia-smi)
 sudo add-apt-repository ppa:graphics-drivers/ppa <br/>
