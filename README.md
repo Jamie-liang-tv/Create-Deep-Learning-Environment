@@ -1,14 +1,14 @@
-# Create-Deep-Learning-Environment
-Setup Environment for Deep Learning
+# Create-Deep-Learning-Environment <br/>
+Setup Environment for Deep Learning <br/>
 
-#First, install graphic driver, (nvidia-smi)
-sudo add-apt-repository ppa:graphics-drivers/ppa
-sudo apt install nvidia-driver-450
-sudo apt-get update
-#Pure the driver
-sudo apt-get purge nvidia*
-#Reboot 
-sudo reboot 
+#First, install graphic driver, (nvidia-smi) <br/>
+sudo add-apt-repository ppa:graphics-drivers/ppa <br/>
+sudo apt install nvidia-driver-450 <br/>
+sudo apt-get update <br/>
+#Pure the driver <br/>
+sudo apt-get purge nvidia* <br/>
+#Reboot  <br/>
+sudo reboot  <br/>
 
 #Second, step install gcc (to prevent Failed to verify gcc version) 
 sudo apt update 
@@ -71,10 +71,3 @@ pip install jupyter
 pip install jupyterlab
 
 # Congratsss!
-
-
-
-
-
-
-
