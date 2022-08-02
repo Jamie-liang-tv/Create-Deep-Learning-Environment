@@ -15,7 +15,7 @@ sudo apt install build-essential  <br/>
 sudo apt-get install manpages-dev  <br/>
 sudo apt install gcc  <br/>
 gcc --version 
-### visit https://developer.nvidia.com/cuda-11.0-download-archive to download suitable cuda (our case 11.0.2) 
+### Visit https://developer.nvidia.com/cuda-11.0-download-archive to download suitable cuda (our case 11.0.2) 
 wget https://developer.download.nvidia.com/compute/cuda/11.0.2/local_installers/cuda_11.0.2_450.51.05_linux.run <br/>
 sudo chmod +x cuda_11.0.2_450.51.05_linux.run <br/>
 sudo sh cuda_11.0.2_450.51.05_linux.run # only check on CUDA Toolkit 11.0 it will work <br/>
