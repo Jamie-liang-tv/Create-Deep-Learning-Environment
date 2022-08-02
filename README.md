@@ -10,10 +10,10 @@ sudo apt-get purge nvidia* <br/>
 ## Reboot  
 sudo reboot  <br/>
 # Second, step install gcc (to prevent Failed to verify gcc version) 
-sudo apt update 
-sudo apt install build-essential 
-sudo apt-get install manpages-dev 
-sudo apt install gcc 
+sudo apt update  <br/>
+sudo apt install build-essential  <br/>
+sudo apt-get install manpages-dev  <br/>
+sudo apt install gcc  <br/>
 gcc --version 
 ### visit https://developer.nvidia.com/cuda-11.0-download-archive to download suitable cuda (our case 11.0.2) 
 wget https://developer.download.nvidia.com/compute/cuda/11.0.2/local_installers/cuda_11.0.2_450.51.05_linux.run <br/>
