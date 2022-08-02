@@ -1,5 +1,5 @@
 # Create-Deep-Learning-Environment
-Setup Environment for Deep Learning on Ububt2X.0X <br/>
+Setup Environment for Deep Learning on Ubuntu20.0X <br/>
 
 # First, install graphic driver (nvidia-smi)
 sudo add-apt-repository ppa:graphics-drivers/ppa <br/>
